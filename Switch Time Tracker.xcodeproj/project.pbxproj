@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792C91A2207DA258003E3E56 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792C91A1207DA258003E3E56 /* Main.xib */; };
+		792C91A4207DAC72003E3E56 /* StatusBarItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C91A3207DAC72003E3E56 /* StatusBarItemController.swift */; };
+		799B24A0207E2888007B245F /* Activity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B249C207E2888007B245F /* Activity+CoreDataClass.swift */; };
+		799B24A1207E2888007B245F /* Activity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B249D207E2888007B245F /* Activity+CoreDataProperties.swift */; };
+		799B24A2207E2888007B245F /* Log+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B249E207E2888007B245F /* Log+CoreDataClass.swift */; };
+		799B24A3207E2888007B245F /* Log+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B249F207E2888007B245F /* Log+CoreDataProperties.swift */; };
 		799B30EE207D930500FB5D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B30ED207D930500FB5D48 /* AppDelegate.swift */; };
 		799B30F1207D930500FB5D48 /* Switch_Time_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 799B30EF207D930500FB5D48 /* Switch_Time_Tracker.xcdatamodeld */; };
 		799B30F3207D930500FB5D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799B30F2207D930500FB5D48 /* Assets.xcassets */; };
-		799B30F6207D930500FB5D48 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799B30F4207D930500FB5D48 /* MainMenu.xib */; };
+		799B3100207D956700FB5D48 /* ActivityPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799B30FE207D956700FB5D48 /* ActivityPanelController.swift */; };
+		799B3101207D956700FB5D48 /* ActivityPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799B30FF207D956700FB5D48 /* ActivityPanel.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		792C91A1207DA258003E3E56 /* Main.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		792C91A3207DAC72003E3E56 /* StatusBarItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarItemController.swift; sourceTree = "<group>"; };
+		799B249C207E2888007B245F /* Activity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		799B249D207E2888007B245F /* Activity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		799B249E207E2888007B245F /* Log+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataClass.swift"; sourceTree = "<group>"; };
+		799B249F207E2888007B245F /* Log+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		799B30EA207D930500FB5D48 /* Switch Time Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Switch Time Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		799B30ED207D930500FB5D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		799B30F0207D930500FB5D48 /* Switch_Time_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Switch_Time_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		799B30F2207D930500FB5D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		799B30F5207D930500FB5D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		799B30F7207D930500FB5D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		799B30F8207D930500FB5D48 /* Switch_Time_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Switch_Time_Tracker.entitlements; sourceTree = "<group>"; };
+		799B30FE207D956700FB5D48 /* ActivityPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPanelController.swift; sourceTree = "<group>"; };
+		799B30FF207D956700FB5D48 /* ActivityPanel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityPanel.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		799B24A8207E2CCA007B245F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				799B249C207E2888007B245F /* Activity+CoreDataClass.swift */,
+				799B249D207E2888007B245F /* Activity+CoreDataProperties.swift */,
+				799B249E207E2888007B245F /* Log+CoreDataClass.swift */,
+				799B249F207E2888007B245F /* Log+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		799B30E1207D930500FB5D48 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +78,13 @@
 		799B30EC207D930500FB5D48 /* Switch Time Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				799B24A8207E2CCA007B245F /* Models */,
+				792C91A1207DA258003E3E56 /* Main.xib */,
 				799B30ED207D930500FB5D48 /* AppDelegate.swift */,
+				792C91A3207DAC72003E3E56 /* StatusBarItemController.swift */,
+				799B30FE207D956700FB5D48 /* ActivityPanelController.swift */,
+				799B30FF207D956700FB5D48 /* ActivityPanel.xib */,
 				799B30F2207D930500FB5D48 /* Assets.xcassets */,
-				799B30F4207D930500FB5D48 /* MainMenu.xib */,
 				799B30F7207D930500FB5D48 /* Info.plist */,
 				799B30F8207D930500FB5D48 /* Switch_Time_Tracker.entitlements */,
 				799B30EF207D930500FB5D48 /* Switch_Time_Tracker.xcdatamodeld */,
@@ -121,7 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				799B30F3207D930500FB5D48 /* Assets.xcassets in Resources */,
-				799B30F6207D930500FB5D48 /* MainMenu.xib in Resources */,
+				799B3101207D956700FB5D48 /* ActivityPanel.xib in Resources */,
+				792C91A2207DA258003E3E56 /* Main.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,23 +162,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792C91A4207DAC72003E3E56 /* StatusBarItemController.swift in Sources */,
+				799B24A0207E2888007B245F /* Activity+CoreDataClass.swift in Sources */,
+				799B24A1207E2888007B245F /* Activity+CoreDataProperties.swift in Sources */,
 				799B30F1207D930500FB5D48 /* Switch_Time_Tracker.xcdatamodeld in Sources */,
+				799B24A3207E2888007B245F /* Log+CoreDataProperties.swift in Sources */,
+				799B3100207D956700FB5D48 /* ActivityPanelController.swift in Sources */,
+				799B24A2207E2888007B245F /* Log+CoreDataClass.swift in Sources */,
 				799B30EE207D930500FB5D48 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		799B30F4207D930500FB5D48 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				799B30F5207D930500FB5D48 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		799B30F9207D930500FB5D48 /* Debug */ = {
@@ -276,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.futuristico.Switch-Time-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.futuristico.switch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -294,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "xyz.futuristico.Switch-Time-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.futuristico.switch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};

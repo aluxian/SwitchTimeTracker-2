@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activity" representedClassName="Activity" syncable="YES">
+        <attribute name="name" attributeType="String" minValueString="1" syncable="YES"/>
+        <relationship name="logs" toMany="YES" deletionRule="Cascade" destinationEntity="Log" inverseName="activity" inverseEntity="Log" syncable="YES"/>
+    </entity>
+    <entity name="Log" representedClassName="Log" syncable="YES">
+        <attribute name="end" attributeType="Date" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="start" attributeType="Date" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="activity" maxCount="1" deletionRule="Nullify" destinationEntity="Activity" inverseName="logs" inverseEntity="Activity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Log" positionX="-54" positionY="0" width="128" height="90"/>
+    </elements>
 </model>
